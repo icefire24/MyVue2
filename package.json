@@ -1,0 +1,24 @@
+{
+  "name": "myvue2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icefire24/MyVue2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icefire24/MyVue2/issues"
+  },
+  "homepage": "https://github.com/icefire24/MyVue2#readme",
+  "dependencies": {
+    "vite": "^5.1.5"
+  }
+}

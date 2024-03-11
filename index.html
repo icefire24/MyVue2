@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script type="module">
+    import { Vue } from './index.js'
+    console.log(Vue);
+    let vm = new Vue({
+        data() {
+            return {
+                name: 'vue',
+                age: 18,
+                sex: '男',
+                arr: [1, 2, 3],
+                obj: {
+                    name: '张三',
+                }
+            }
+        }
+    })
+    window.vm = vm
+    
+</script>
+
+</html>
